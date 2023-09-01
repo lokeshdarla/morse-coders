@@ -63,7 +63,6 @@ def main():
     st.set_page_config(page_title="Chat with multiple PDFs",
                        page_icon=":books:")
 
-    # Check if the OPENAI_API_KEY environment variable is set
     if not OPENAI_API_KEY:
         st.error("OpenAI API key not found. Please set the OPENAI_API_KEY environment variable in your .env file.")
         return
