@@ -1,1 +1,1 @@
-This repo is for 9 hacks
+In this repository, we tried to make a pdf chatbot using Streamlit and Openai api key.
